@@ -1,6 +1,9 @@
 ﻿# Lucid chart c# wrapper.
 
-[https://www.lucidchart.com/pages/api_documentation]
+[https://www.lucidchart.com/pages/api_documentation](https://www.lucidchart.com/pages/api_documentation)
+
+
+## Get AccessToken and AccessSecret
 
 As OAuth 1 require to call a callback, you can run this inside a MVC App, to have a callback.
 
@@ -56,7 +59,7 @@ public JsonResult OAuth1Callback()
 ```
 
 
-## When AccessToken && AccessSecret are known, you can either use MVC or any C# projet
+## When AccessToken and AccessSecret are known, you can either use MVC or any C# projet
 
 ```c#
 /// <summary>
